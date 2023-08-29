@@ -8,7 +8,7 @@ const models = require('../models/index')
 const insecurity = require('../lib/insecurity')
 const request = require('request')
 const logger = require('../lib/logger')
-
+/*shawn was here*/
 module.exports = function profileImageUrlUpload () {
   return (req, res, next) => {
     if (req.body.imageUrl !== undefined) {
